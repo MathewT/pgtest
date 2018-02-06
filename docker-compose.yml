@@ -8,7 +8,7 @@ services:
     ports:
       - '5432:5432'
     environment:
-      POSTGRES_USER: pgtest
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
   pgadmin4:
     image: fenglc/pgadmin4
